@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="OIB" verbose="1" >
+  <test name="Regression" >
+    
+    <classes>
+      <class name="com.oib.automation.TC001"/>
+      <class name="com.oib.automation.TC002"/>
+    </classes>
+  </test>
+</suite>
